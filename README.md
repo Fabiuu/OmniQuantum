@@ -1,90 +1,123 @@
 # OmniQuantum
 
-**Explore o universo quântico.** Notícias de ciência, laboratório de circuitos quânticos, comunidade e painel de mercados do setor — em uma plataforma que roda inteira no navegador.
+## O universo quântico não precisa ficar distante.
 
-[![Acessar a OmniQuantum](https://img.shields.io/badge/%F0%9F%8C%90%20Acessar-omniquantum.vercel.app-8b5cf6)](https://omniquantum.vercel.app)
-![Status](https://img.shields.io/badge/status-beta%20p%C3%BAblico-3b82f6)
-![Execu%C3%A7%C3%A3o](https://img.shields.io/badge/execu%C3%A7%C3%A3o-100%25%20no%20navegador-10b981)
+Ciência, código e curiosidade em uma só experiência. Explore notícias, investigue pesquisas, experimente circuitos e conheça as empresas que estão construindo o setor.
 
-## O que é
+[Acessar a OmniQuantum](https://omniquantum.vercel.app/) · [Apresentação anterior e capturas históricas](docs/historico/apresentacao-anterior/README.md)
 
-A OmniQuantum é uma plataforma sobre o universo da física quântica. A ideia é reunir em um só lugar o que hoje está espalhado por periódicos, laboratórios, blogs e painéis financeiros: notícias com fonte original, um laboratório didático de circuitos, catálogo de pesquisas, comunidade aberta e um panorama das empresas do setor.
+> Beta em evolução. Capturas reais da interface em 31/10/2026. As limitações de simulação, IA, dados e conectividade estão descritas abaixo.
 
-Tudo roda no navegador, como aplicativo instalável (PWA) com funcionamento offline. A conta é opcional: dá para explorar quase tudo como visitante.
+## Uma nova experiência para explorar o universo quântico
 
-## Tour pela plataforma
+A OmniQuantum reúne notícias, pesquisas, programação, comunidade e empresas do setor em uma experiência visual feita para despertar curiosidade e levar você às fontes. Do primeiro contato com um qubit ao estudo de circuitos, o ponto de partida está aqui.
 
-### Visão geral
+![Uma nova experiência para explorar o universo quântico](1-vitrine-2026-10-31-inicio.png)
 
-![Visão geral](captura-visao-geral.png)
+- Uma interface com fundos imersivos, camadas de vidro, animações e navegação adaptada ao celular e ao computador.
+- Português, inglês e espanhol na interface. A disponibilidade de tradução varia conforme o conteúdo e a fonte.
+- Oito áreas conectadas: visão geral, notícias, publicações, laboratório, mercados, pesquisas, itens salvos e sobre o projeto.
 
-A porta de entrada: os seis grandes temas da plataforma (física, ciência, tecnologia, programação, filosofia e teorias quânticas), radar de novidades e indicadores do que existe dentro do app. O mesmo conteúdo fica disponível offline depois da primeira visita.
+## Notícias: descubra, filtre, confira
 
-### Notícias quânticas
+Acompanhe temas do universo quântico sem perder o caminho até a publicação original.
 
-![Notícias](captura-noticias.png)
+![Notícias: descubra, filtre, confira](2-vitrine-2026-10-31-noticias.png)
 
-Curadoria de notícias do campo quântico com link direto para a fonte original de cada item, data declarada e ressalvas de contexto. O aviso de "retrato editorial datado" fica visível quando o conteúdo vem do cache offline — a plataforma prefere mostrar a data do que fingir atualidade.
+- Curadoria editorial e coleta periódica de notícias de fontes públicas, com busca e filtros por tema.
+- Cartões com imagens automáticas, indicação de imagem relacionada ou ilustração editorial e crédito quando disponível.
+- Títulos em múltiplos idiomas, favoritos e acesso à fonte. A imagem da notícia também abre a publicação de origem.
+- Uma notícia no índice não é um atestado científico. Consulte a fonte, os métodos e as ressalvas do trabalho.
 
-### Laboratório
+## Quantum Lab: ideias ganham forma
 
-![Laboratório](captura-laboratorio.png)
+Um espaço para explorar código, experimentar circuitos didáticos e pedir ajuda à Omni, sem confundir simulação com hardware quântico.
 
-Um ambiente de experimentação com editor de código. Em OpenQASM, o botão "Executar" roda uma simulação real por vetor de estado, no próprio dispositivo, com até 6 qubits e sem servidor. Nas demais linguagens, os exemplos são visuais e o rótulo "exemplo didático, sem execução" deixa isso explícito. O assistente de programação apenas monta um prompt local para você levar à ferramenta de IA da sua preferência — nenhum código é enviado a terceiros.
+![Quantum Lab: ideias ganham forma](3-vitrine-2026-10-31-laboratorio.png)
 
-### Mercados
+- Editor com exemplos de Qiskit, PennyLane, OpenQASM 3, Q# / QDK, Cirq e CUDA-Q.
+- Execução local de um subconjunto didático de OpenQASM, por vetor de estado, com até 6 qubits.
+- Ferramentas do laboratório para exemplos, simulações, projetos e compartilhamento.
+- Assistente Omni com pesquisa web após envio explícito, entrada na conta e declaração de idade de 18 anos ou mais.
+- O código e a saída atuais só acompanham a pergunta quando essa opção está marcada. A IA não executa o código nem altera o editor sozinha.
+- Histórico privado associado à conta, com exclusão de registros e da conta. Não confunda esse histórico com a conversa temporária do mascote.
 
-![Mercados](captura-mercados.png)
+## Omni: companhia durante a exploração
 
-Painel do ecossistema comercial: 11 empresas listadas em bolsa, organizadas em pure-plays estabelecidas, novas pure-plays de 2026 (Quantinuum, IQM, Pasqal, Xanadu) e big techs com programas quânticos (Alphabet, Microsoft, IBM, Amazon), cada uma com perfil explicativo sobre sua arquitetura e atuação. Uma seção separada cobre empresas relevantes sem ticker confirmado, com aviso de que o status pode mudar. Os gráficos são widgets oficiais TradingView com dados em atraso — e o app diz isso na tela. Nada ali é recomendação de investimento.
+O mascote Omni acompanha a navegação e oferece um ponto de conversa leve dentro da experiência.
 
-### Pesquisas
+- A conversa do mascote é temporária: pode ser reiniciada ao navegar ou recarregar a página.
+- Esse comportamento é separado do histórico da assistente no laboratório. Não há promessa de memória permanente do mascote.
 
-![Pesquisas](captura-pesquisas.png)
+## Pesquisas: vá além da manchete
 
-Busca em tempo real no índice OpenAlex (que agrega Crossref, arXiv e outras fontes públicas) por título, palavra-chave, DOI ou autor. Preprints e retratações aparecem com selos próprios, porque presença no índice não atesta validade científica.
+Explore metadados de trabalhos científicos via OpenAlex e abra os links de origem para continuar a investigação.
 
-### Comunidade
+![Pesquisas: vá além da manchete](4-vitrine-2026-10-31-pesquisas.png)
 
-![Comunidade](captura-comunidade.png)
+- Busca de trabalhos e filtros para explorar o campo quântico.
+- Links para DOI e páginas de origem, conforme disponíveis nos registros.
+- Preprints, artigos e outros registros têm níveis diferentes de revisão. Presença no catálogo não comprova validade científica nem garante texto completo.
 
-Espaço aberto de conversas: publicar não exige cadastro — um nome fictício por publicação é gerado para quem prefere. A captura acima mostra apenas conteúdo de demonstração, rotulado como DEMO com perfis fictícios. Há moderação com fila de análise, registro de ações, botão de denúncia em cada publicação e formulário de contestação para quem discordar de uma decisão.
+## Mercados: conheça quem constrói o setor
 
-### Transparência
+Descubra empresas relacionadas à tecnologia quântica e explore gráficos de mercado fornecidos pelo widget oficial TradingView.
 
-![Sobre o projeto](captura-transparencia.png)
+![Mercados: conheça quem constrói o setor](5-vitrine-2026-10-31-mercados.png)
 
-A página "Sobre" declara os limites do produto: o que funciona offline, o que é simulado, o que é demonstração, como a IA é (não) usada e como a moderação opera. É o contrato honesto da plataforma com quem visita.
+- Catálogo de empresas com descrições, busca, favoritos e comparação.
+- Gráficos reais do provedor, com períodos selecionáveis e identificação do símbolo e da bolsa.
+- Os dados podem ter atraso e dependem de conexão, bolsa e provedor. O painel não é recomendação de investimento.
 
-## O que já funciona
+## Conversas: curiosidade vira comunidade
 
-- Aplicativo web instalável (PWA) com cache versionado e modo offline.
-- Conta por e-mail/senha ou Google, com perfil e nome de exibição editável — opcional para leitura.
-- Notícias com acúmulo persistente de histórico e mescla diária com fontes RSS.
-- Simulador de circuitos OpenQASM 100% local (até 6 qubits).
-- Catálogo de pesquisas via OpenAlex com selos de preprint e retratação.
-- Comunidade com anti-spam, denúncia, moderação com auditoria e contestação.
-- Painel de mercados com 11 empresas listadas e perfis explicativos conferidos em fontes públicas.
-- Temas claro e escuro, com contraste medido (WCAG) e layout verificado em telas de 360 px em diante.
+Compartilhe perguntas, ideias e descobertas em uma comunidade em fase beta.
 
-## Em desenvolvimento
+![Conversas: curiosidade vira comunidade](6-vitrine-2026-10-31-publicacoes.png)
 
-- Artes visuais próprias para o hero e para os cards (a primeira — um buraco negro com disco de acreção desenhado em SVG pelo time do projeto — está em revisão; os fundos atuais são provisórios).
-- Imagens contextuais para notícias e empresas.
-- Edição e exclusão dos próprios comentários na comunidade (publicações já podem ser editadas e excluídas pelo autor).
-- Melhorias contínuas de conteúdo editorial e de acessibilidade.
+- Publicações, comentários e curtidas, com identificação de visitante e busca nas conversas carregadas.
+- Conteúdo da comunidade separado de exemplos de conversas fictícias.
+- Denúncia e recurso aparecem na interface, mas os fluxos de moderação ainda não foram comprovados de ponta a ponta em produção. Não há prazo ou resultado garantido.
 
-## Limites declarados
+## Sua coleção, do seu jeito
 
-- Cotações e gráficos de mercado chegam com atraso indicado pelo próprio provedor; nada no painel é recomendação de investimento.
-- Perfis, publicações e interações marcadas como DEMO são demonstração, não usuários reais.
-- O laboratório executa apenas o subconjunto didático de OpenQASM; outros exemplos não rodam código.
-- O acesso gratuito a computadores quânticos reais citado no app (IBM Quantum, AWS Braket, Azure Quantum, D-Wave Leap) segue os limites e custos publicados por cada provedor.
+Guarde referências para retomar depois e reúna suas descobertas em itens salvos.
 
-## Código e privacidade
+![Sua coleção, do seu jeito](7-vitrine-2026-10-31-salvos.png)
 
-O código-fonte é privado e este repositório é a vitrine pública do projeto — sem downloads por enquanto. As capturas acima mostram o produto real em uso por visitante, sem dados de conta.
+- Favoritos e coleção local para organizar o que chamou sua atenção.
+- Parte da navegação, da curadoria incluída, dos exemplos e dos rascunhos funciona com dados locais.
+- Notícias carregadas da rede, pesquisas externas, conta, IA, comunidade e gráficos precisam de conectividade para suas funções online. O aplicativo não funciona integralmente offline.
 
-## Acesse
+## O salto em relação à apresentação anterior
 
-**[omniquantum.vercel.app](https://omniquantum.vercel.app)** — gratuito, sem instalação, funciona no celular e no computador.
+A nova apresentação acompanha uma plataforma que deixou de ser descrita apenas como uma experiência local com exemplos estáticos.
+
+- Antes: apresentação centrada no aplicativo local. Agora: conta e serviços online convivem com recursos locais.
+- Antes: destaque em circuitos demonstrativos e prompts. Agora: editor em várias linguagens, execução didática de OpenQASM e assistente de laboratório com pesquisa web.
+- Agora: notícias com imagens automáticas e acesso direto às fontes, pesquisa OpenAlex, gráficos TradingView e nova navegação visual.
+- A apresentação anterior continuará acessível em uma seção histórica visível deste repositório, com suas capturas originais. Ela documenta uma etapa anterior, não o estado atual.
+
+## Transparência faz parte do projeto
+
+A ambição é abrir caminhos para aprender e explorar, não anunciar resultados que ainda não existem.
+
+- Não executa em uma QPU nem demonstra vantagem quântica. A simulação local tem limites didáticos.
+- As outras linguagens do editor são exemplos visuais, sem execução de Python, Q#, Cirq ou CUDA-Q no aplicativo.
+- Respostas de IA não são validadas automaticamente como verdade científica. Confira fontes, versões, cálculos e resultados.
+- No laboratório, Tavily recebe a pergunta de pesquisa; Groq recebe pergunta, fontes e contexto marcado. Não envie dados pessoais, segredos ou código privado.
+- O beta é gratuito, mas há limites globais e limites dos provedores. Ausência de teto diário por conta não significa uso ilimitado.
+- Exemplos de conversas são fictícios. Imagens editoriais não devem ser confundidas com registros do experimento ou da notícia.
+- Código privado, credenciais e dados pessoais não fazem parte desta vitrine pública.
+
+## O que vem depois
+
+A plataforma segue como beta em evolução. Melhorias experimentais não são apresentadas como funções já disponíveis.
+
+- As capturas desta apresentação mostram a versão acessível em 31 de outubro de 2026.
+- Novos recursos só serão anunciados como disponíveis depois de publicados e conferidos.
+- Explore o aplicativo, abra as fontes e acompanhe os próximos passos neste repositório.
+
+---
+
+**OmniQuantum · Explore. Questione. Experimente. Confira as fontes.**
